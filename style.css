@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	padding: 3rem;
+}
+
+header {
+	background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.88), rgba(51, 51, 0, 0.8)), url('img/header.jpg') center/cover no-repeat;
+	height: 94vh;
+	position: relative;
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.header-logo {
+	width: 7rem;
+	position: absolute;
+	top: 3rem;
+	left: 3rem;
+}
+
+.text-box {
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	line-height: 1.7
+}
+
+.heading-primary-main {
+	display: block;
+	font-size: 2.7rem;
+	font-weight: 500;
+}
+
+.heading-primary-sub {
+	display: block;
+	font-weight: 400
+}
